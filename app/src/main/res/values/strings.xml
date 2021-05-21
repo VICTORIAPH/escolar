@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">DADM_AppEscolar</string>
+    <string name="jsonAlumnos">
+        {
+            "alumnos" : [
+                {
+                    "no_control":"21120001",
+                    "nombre":"Alex",
+                    "carrera":"ITICs",
+                    "semestre":7,
+                    "contrasenia":"12345"
+                },
+
+                {
+                    "no_control":"21120002",
+                    "nombre":"Amy",
+                    "carrera":"ITICs",
+                    "semestre":3,
+                    "contrasenia":"6789"
+                },
+                {
+                    "no_control":"21120003",
+                    "nombre":"Asher",
+                    "carrera":"ITICs",
+                    "semestre":4,
+                    "contrasenia":"9010"
+                },
+                {
+                    "no_control":"21120004",
+                    "nombre":"July",
+                    "carrera":"ITICs",
+                    "semestre":8,
+                    "contrasenia":"112233"
+                },
+                {
+                    "no_control":"21120005",
+                    "nombre":"Beto",
+                    "carrera":"ITICs",
+                    "semestre":1,
+                    "contrasenia":"111"
+                }
+               
+            ],
+            "materias" : [
+                {
+                    "semestre-1" : [
+                        {"S11":"Fundamentos_de_Programación"},
+                        {"S12":"Matematicas_Discretas"},
+                        {"S13":"Calculo_Diferencial"},
+                        {"S14":"Introducción_a_las_TICS"},
+                         {"S15":"Taller_de_Etíca"},
+                        {"S16":"Fundamentos_de_Investigación"}
+                    ]
+                },
+                {
+                    "semestre-2" : [
+                        {"S21":"POO"},
+                        {"S22":"Probabilidad_y_Estadística"},
+                        {"S23":"Matemáticas_Discretas_II"},
+                        {"S24":"Fundamentos_de_Investigación_II"}
+                        {"S25":"Calculo_Integral"}
+                        {"S26":"Contabilidad_y_Costos"}
+
+
+                    ]
+                },
+                {
+                    "semestre-3" : [
+                        {"S31":"Desarrollo_Sustentable"},
+                        {"S32":"Estructuras_de_Datos"},
+                        {"S33":"Electricidad_y_Magnetismo"},
+                        {"S34":"Administración"},
+                        {"S35":"Matemáticas_para_Decisiones"},
+                        {"S36":"Fundamentos_de_BD"}
+                    ]
+                },
+                {
+                    "semestre-4" : [
+                        {"S41":"Programación_II"},
+                        {"S42":"Matematicas_Aplicadas_a_Comunicaciones"},
+                        {"S43":"Ing._de_Software"},
+                        {"S44":"Taller_de_BD"},
+                        {"S45":"Fundamentos_de_Redes"}
+                         {"S46":"CIrcuitos_Electricos_y_Electronicos"}
+                    ]
+                },
+                {
+                    "semestre-5" : [
+                        {"S51":"Analisis_de_Señales"},
+                         {"S52":"Administración_de_Proyectos"},
+                        {"S53":"Arquitectura_de_Computadoras"},
+                        {"S54":"BD_Distribuidas"},
+                        {"S55":"Taller_de_Ing._de_Software"},
+                        {"S56":"Redes_de_Computadoras"}
+                    ]
+                },
+                {
+                    "semestre-6" : [
+                        {"S61":"Telecomunicaciones"},
+                        {"S62":"Programación_Web"},
+                        {"S63":"Interacción_Humano_Computadora"},
+                        {"S64":"Sistemas_Operativos"},
+                        {"S65":"Tecnologías_Inálambricas"}
+                        {"S66":"Desarrollo_de_Emprendedores"}
+                    ]
+                },
+                {
+                    "semestre-7" : [
+                        {"S71":"Desarrollo_de_Aplicaciones_Móviles"},
+                        {"S72":"Redes_Emergentes"},
+                        {"S73":"SO_II"},
+                        {"S74":"Negocios_Electronicos"},
+                        {"S75":"Seguridad_Informática"}
+                        {"S76":"Taller_de_Investigación"}
+                    ]
+                },
+                {
+                    "semestre-8" : [
+                        {"S81":"Computo_en_la_Nube"},
+                        {"S82":"Seguridad_en_Sistemas_Operativos"},
+                        {"S83":"Taller_de_Investigación"},
+                        {"S84":"Administración_y_Seguridad_de_redes"},
+                        {"S85":"Auditoria_en_Tecnologias_de_la_Información"},
+                        {"S86":"Negocios_Electronicos_II"},
+                        {"S87":"Servicio_Social"}
+                    ]
+                },
+                {
+                    "semestre-9" : [
+                        {"S91":"Sefuridad_en_Redes"},
+
+                        {"S92":"Sistemas_de_Gestion_de_la_Seguridad_Informatica"},
+
+                        {"S93":"Ingenieria_del_Conocimiento"}
+                        {"S94":"Residencias_Profecionales"},
+                    ]
+                }
+            ]
+        }
+    </string>
+    <string name="title_activity_academic_advance">AcademicAdvanceActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
